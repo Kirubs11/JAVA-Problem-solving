@@ -1,26 +1,26 @@
 import java.util.*;
 
-class node {
+class Node {
     int data;
-    node next;
+    Node next;
 
-    node(int data) {
+    Node(int data) {
         this.data = data;
         this.next = null;
     }
 }
 class SinglyCircular{
-    node head;
+    Node head;
     SinglyCircular() {
         head = null;
     }
     void insert(int data) {
-        node nn = new node(data);
+        Node nn = new Node(data);
         if (head == null) {
             nn.next=nn;
             head = nn;
         } else {
-            node temp=head;
+            Node temp=head;
             while(temp.next!=head)
             {
                 temp=temp.next;
@@ -32,14 +32,14 @@ class SinglyCircular{
     }
     void insertpos(int pos,int data)
     {
-        node nn=new node(data);
+        Node nn=new Node(data);
         if(pos==0)
         {
             insert(data);
             return;
         }
         else{
-            node temp=head;
+            Node temp=head;
             for(int i=0;i<pos-1;i++)
             {
                 temp=temp.next;
@@ -50,7 +50,7 @@ class SinglyCircular{
     }
     void display() 
     {
-        node temp = head;
+        Node temp = head;
         do
         {
             System.out.printf("%d ",temp.data);
