@@ -1,10 +1,10 @@
 import java.util.*;
-class node{
+class Node{
   int data;
-  node next;
-  node prev;
+  Node next;
+  Node prev;
   
-  node(int data)
+  Node(int data)
   {
     this.data=data;
     this.next=null;
@@ -12,8 +12,8 @@ class node{
   }
 }
 class doubl{
-  node head;
-  node tail;
+  Node head;
+  Node tail;
   
   doubl()
   {
@@ -22,7 +22,7 @@ class doubl{
   }
   public void insert(int data)
   {
-    node nn=new node(data);
+    Node nn=new Node(data);
     if(head==null)
     {
       head=nn;
@@ -37,7 +37,7 @@ class doubl{
   }
   public void reverse()
   {
-    node temp=tail;
+    Node temp=tail;
     while(temp!=null)
     {
       System.out.printf("%d ",temp.data);
