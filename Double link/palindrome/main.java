@@ -30,7 +30,7 @@ class DoublyLinkedList
           tail=Newnode;
         }
     }
-    void pal()
+    void palindrome()
     {
       Node left=head;
       Node rig=tail;
@@ -48,8 +48,8 @@ class DoublyLinkedList
          break;
         }
        }
-      if(count==1) System.out.print("Not a Palindrome");
-      else System.out.print("Palindrome");
+      if(count==1) System.out.print("Not a palindrome");
+      else System.out.print("palindrome");
       
     }   
 }
@@ -69,6 +69,6 @@ public class main
             }
             List.create_List(num);
         }
-        List.pal();
+        List.palindrome();
     }
 }
