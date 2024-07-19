@@ -14,7 +14,7 @@ class SinglyCircular{
     SinglyCircular() {
         head = null;
     }
-    void insert(int data) {
+    void insertend(int data) {
         node nn = new node(data);
         if (head == null) {
             nn.next=nn;
@@ -50,7 +50,7 @@ class endinsert
         {
             val=ob.nextInt();
             if(val==-1)break;
-            s.insert(val);
+            s.insertend(val);
         }
         s.display();
     }

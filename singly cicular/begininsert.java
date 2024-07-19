@@ -9,12 +9,12 @@ class node {
         this.next = null;
     }
 }
-class sc{
+class SinglyCircular{
     node head;
-    sc() {
+    SinglyCircular() {
         head = null;
     }
-    void insert(int data) {
+    void insertbeg(int data) {
         node nn = new node(data);
         if (head == null) {
             nn.next=nn;
@@ -45,13 +45,13 @@ class begininsert
     public static void main(String [] args)
     {
         Scanner ob=new Scanner(System.in);
-        sc s=new sc();
+        SinglyCircular s=new SinglyCircular();
         int val=0;
         while(val!=-1)
         {
             val=ob.nextInt();
             if(val==-1)break;
-            s.insert(val);
+            s.insertbeg(val);
         }
         s.display();
     }
