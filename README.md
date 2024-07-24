@@ -1,4 +1,4 @@
-"# JAVA-problem-solving" 
+## JAVA-problem-solving
 1. **java-problem-solving Repository**:
    - This repository showcases solutions to programming practice problems in Java.
    - It covers topics like converting strings into capitalized words using loops and if statements, as well as reversing strings using `StringBuilder` and loops.
