@@ -2,7 +2,7 @@
 (without using conditional statement)*/
 
 import java.util.*;
-class CHALLENGE{
+class Print_1_or_2{
   public static void main(String[]args)
   {
     Scanner ob=new Scanner(System.in);
