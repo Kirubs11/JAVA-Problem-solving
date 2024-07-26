@@ -70,7 +70,7 @@ class stack
         }
     }
 }
-class stack_op
+class stack_operation_in_linkedList
 {
     public static void main(String[]args)
     {
