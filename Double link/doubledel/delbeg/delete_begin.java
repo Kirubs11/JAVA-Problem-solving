@@ -9,11 +9,11 @@ class node{
         this.prev = null;
     }
 }
-class delbeg
+class delete_begin
 {
     node head;
     node tail;
-    delbeg()
+    delete_begin()
     {
         head = null;
         tail = null;
@@ -58,7 +58,7 @@ class delbeg
     public static void main(String args[])
     {
         Scanner ob=new Scanner(System.in);
-        delbeg dl=new delbeg();
+       delete_begin dl=new delete_begin();
         int val=0;
         while(val!=-1)
         {
