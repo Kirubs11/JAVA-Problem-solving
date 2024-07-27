@@ -4,8 +4,8 @@ import java.util.*;
 class Absolute_value{
   public static void main(String[]args)
   {
-    Scanner ob=new Scanner(System.in);
-    int a=ob.nextInt();
+    Scanner obj=new Scanner(System.in);
+    int a=obj.nextInt();
     
     System.out.print(Math.abs(a));
   }
