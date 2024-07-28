@@ -1,5 +1,5 @@
 import java.util.*;
-class infix_To_Postfix
+class infix_To_Postfix_InStack
 {
     public static int precedence(char operator){
         switch(operator){
