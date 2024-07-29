@@ -60,7 +60,7 @@ class scl
         System.out.println();
     }
 }
-class Sort
+class Sort_In_SinglyCircular
 {
     public static void main(String[] args)
     {
