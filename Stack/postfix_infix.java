@@ -1,5 +1,5 @@
 import java.util.*;
-class post_in
+class postfix_infix
 {
     public static boolean isOperator(char c)
     {
