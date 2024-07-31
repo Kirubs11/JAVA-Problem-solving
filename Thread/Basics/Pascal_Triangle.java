@@ -1,6 +1,6 @@
 import java.util.*;
 
-class pascal {
+class Pascal_Triangle {
 
     public synchronized static void printPascal(int n) {
         for (int i = 1; i <= n; i++) {
