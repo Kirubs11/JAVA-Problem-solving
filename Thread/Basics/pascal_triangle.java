@@ -1,5 +1,5 @@
 import java.util.*;
-class pascaltri{
+class pascal_triangle{
     public synchronized static void printPascal(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < n - i; j++) {
