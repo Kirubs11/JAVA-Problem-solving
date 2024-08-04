@@ -1,6 +1,6 @@
 //Print the following output : %%
 
-class simple1{
+class Printing{
   public static void main(String[]args)
   {
     System.out.println("%%");
