@@ -1,6 +1,6 @@
 // Print the following output : \\\\
 
-class simple_2{
+class Print_slash{
   public static void main(String[] args)
   {
     System.out.println("\\\\\\\\\\\\\\\\");
