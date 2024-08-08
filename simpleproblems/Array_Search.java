@@ -3,7 +3,7 @@ Function should find and return 1 if search element is found in the input array,
 
 
 import java.util.*;
-class Array_search{
+class Array_Search{
   public static void main(String[]args)
   {
     Scanner ob=new Scanner(System.in);
