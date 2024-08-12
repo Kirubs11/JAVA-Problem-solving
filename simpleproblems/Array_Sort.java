@@ -1,7 +1,7 @@
 // Given a list of elements , arrange the elements in ascending order.
 
 import java.util.*;
-class Array_sort
+class Array_Sort
 {
   public static void main(String[]args)
   {
