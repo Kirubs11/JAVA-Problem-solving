@@ -1,7 +1,7 @@
 // Given a number, check whether it is "Odd" or "Even"
 
 import java.util.*;
-class Odd_even{
+class Odd_Even{
   public static void main(String[]args)
   {
     Scanner ob=new Scanner(System.in);
