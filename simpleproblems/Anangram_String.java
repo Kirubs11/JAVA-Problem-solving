@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Anangram {
+public class Anangram_String {
 
     public static void main(String[] args) {
         Scanner ob=new Scanner(System.in);
