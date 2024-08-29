@@ -1,5 +1,5 @@
 import java.util.*;
-class mulply_wo_index
+class multiply_wo_index
 {
     public static void main(String args[])
     {
