@@ -10,7 +10,7 @@ Score                          Grade
 4.   marks<=60                D   */
 
 import java.util.*;
-class Grade{
+class Grade_Abc{
   public static void main(String[]args)
   {
     Scanner ob=new Scanner(System.in);
