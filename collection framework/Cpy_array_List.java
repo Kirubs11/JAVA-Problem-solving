@@ -1,5 +1,5 @@
 import java.util.*;
-public class Cpy_arrList {
+public class Cpy_array_List {
     public static void main(String[] args)
     {
         Scanner ob = new Scanner(System.in);
