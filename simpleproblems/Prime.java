@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Prime {
     public static void main(String args[]) {
         Scanner ob = new Scanner(System.in);
         long n = ob.nextLong();
