@@ -83,7 +83,7 @@ class SinglyCircular{
    }
 
 }
-class Singly_circular_deletion{
+class Singly_Circular_deletion{
     public static void main(String args[]){
         SinglyCircular list=new SinglyCircular();
         Scanner ob=new Scanner(System.in);
