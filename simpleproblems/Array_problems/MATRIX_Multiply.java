@@ -1,5 +1,5 @@
 import java.util.*;
-class MATRIX_multiply{
+class MATRIX_Multiply{
   public static void main(String[]args)
   {
     Scanner ob=new Scanner(System.in);
