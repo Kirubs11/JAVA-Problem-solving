@@ -1,5 +1,5 @@
 import java.util.*;
-class Space_in_string
+class Space_in_strings
 {
     public static void main(String[] args)
     {
