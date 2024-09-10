@@ -80,7 +80,7 @@ class CircularSinglyLinkedList {
     }
 }
 
-public class Search_and_delete {
+public class Search_and_Delete {
     public static void main(String[] args) {
         Scanner ob = new Scanner(System.in);
         CircularSinglyLinkedList s = new CircularSinglyLinkedList();
