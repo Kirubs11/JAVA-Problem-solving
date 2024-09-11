@@ -1,5 +1,5 @@
 import java.util.*;
-class Stack_operation_in_array
+class Stack_Operation_In_array
 {
     public static void main(String[] args)
     {
