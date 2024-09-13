@@ -1,7 +1,7 @@
 // Given a year, check whether it is a leap year
 
 import java.util.*;
-class LeapYear
+class Leap_Year
 {
   public static void main(String[]args)
   {
