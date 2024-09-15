@@ -1,5 +1,5 @@
 import java.util.*;
-class Skip_RepatedDigits
+class Skip_Repated_Digits
 {
     public static void main(String[] args)
     {
