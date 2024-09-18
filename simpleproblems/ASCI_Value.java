@@ -1,6 +1,6 @@
 // Accept a character and print its corresponding ASCII value.import java.util.*;
 
-class ASCIvalue{
+class ASCI_Value{
   public static void main(String[] args){
     Scanner obj=new Scanner(System.in);
     char a=obj.next().charAt(0);
