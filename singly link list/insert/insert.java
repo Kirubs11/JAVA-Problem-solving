@@ -9,10 +9,10 @@ class Node {
     }
 }
 
-public class insert {
+public class Insert {
     Node head;
 
-    public insert() {
+    public Insert() {
         head = null;
     }
 
@@ -66,7 +66,7 @@ public class insert {
     }
 
     public static void main(String[] args) {
-        insert list = new insert();
+        Insert list = new Insert();
         // Scanner ob=new Scanner(System.in);
         // int n=ob.nextInt();
         // int[] arr=  new int[n];
