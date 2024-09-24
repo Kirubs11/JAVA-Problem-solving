@@ -1,7 +1,7 @@
 // Given the temperature of the day as Celsius as input. Do convert Celsius into Fahrenheit using the formulae: Fahrenheit = ((celcius*9) /5)+32.
 
 import java.util.*;
-class Fahrenheit_to_Celsius{
+class Fahrenheit_To_Celsius{
   public static void main(String[]args)
   {
     Scanner ob=new Scanner(System.in);
