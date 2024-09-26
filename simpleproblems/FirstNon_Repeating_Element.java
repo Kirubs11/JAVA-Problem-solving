@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class FirstNonRepeatingElement {
+class FirstNon_Repeating_Element {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the no.of elements : ");
