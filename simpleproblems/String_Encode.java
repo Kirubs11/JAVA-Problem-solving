@@ -1,5 +1,5 @@
-import java.util.*;
-class StringEncode
+_import java.util.*;
+class String_Encode
 {
   public static void main(String[] args)
   {
