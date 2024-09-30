@@ -1,5 +1,5 @@
 import java.util.*;
-class max_ele_in_array
+class max_ele_In_array
 {
     public static void main(String args[])
     {
