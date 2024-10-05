@@ -1,6 +1,6 @@
 import java.util.*;
 
-class pass {
+class password {
     public static void main(String[] args) {
         Scanner ob = new Scanner(System.in);
         String s = ob.nextLine();
